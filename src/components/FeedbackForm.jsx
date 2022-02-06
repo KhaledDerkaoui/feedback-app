@@ -58,7 +58,7 @@ const FeedbackForm = () => {
     return ( 
         <Card>
             <form onSubmit={handleSubmit}>
-                <h2>How would you rate your service with us?</h2>
+                <h1>How would you rate your service with us ?</h1>
                 <Rating handleRating={ (rt)=>setRating(rt) }/>
                 <div className="input-group">
                     <input type="text" placeholder="Wite a review" onChange={handelTextChange} value={text} />
